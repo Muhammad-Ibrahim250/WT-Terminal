@@ -1,8 +1,42 @@
+
 body {
-  padding: 55px;
-  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 35px;
+  font: 16px "Times New Roman", Times, serif;
 }
 
-a {
-  color: #00B7FF;
+.navbar {
+  background-color: lightgrey !important;
+  padding: 20px;
+}
+
+h1 {
+    margin-left: 450px;
+  }
+
+.table {
+  margin-top: 100px;
+}
+
+.table thead {
+  background-color: lightblue !important;
+}
+
+.table thead tr th {
+  color: blue !important;
+}
+
+.heading {
+  padding-left: 300px;
+}
+
+.checked {
+  color: blue !important;
+  margin-left: 2px;
+}
+
+.btn {
+  background-color: lightblue !important;
+  color: blue !important;
+  border: 2px solid blue !important;
+  margin-right: 30px;
 }
