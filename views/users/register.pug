@@ -1,7 +1,7 @@
 extends ../layout
 
 block content
-  h1 Register
+  h1 Register Now
   .container
     form(action="/register",method="post")
             .form-group
@@ -14,8 +14,9 @@ block content
                 label(for="password") Password
                 input#price(type="password", class="form-control", name="password" required)
             .form-group
-            label(for="gender") Gender
-            select#gender(class="form-control", name="gender")
-                option Male
-                option Female
-			input(type="submit", class="btn btn-info" value="Register")
+            
+             <input type="checkbox" id="male" name="male" value="male">
+                <label for="male"> Male</label><br>
+                <input type="checkbox" id="female" name="female" value="female">
+                <label for="female">Female</label><br>
+            input(type="submit", class="btn " value="Register")
