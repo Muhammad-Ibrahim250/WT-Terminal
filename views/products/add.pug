@@ -4,16 +4,16 @@ block content
     h1 Add New Product
     form(action="/products/add",method="post")
         .form-group
-            label(for="name") Product Name
+            label(for="name") Name
             input#name(type="text", class="form-control", name="name")
         .form-group
-            label(for="price") Product Price
+            label(for="price") Price
             input#price(type="text", class="form-control", name="price")
         .form-group
-            label(for="discription") Product Discription
+            label(for="discription") Description
             input#discription(type="text", class="form-control", name="description")
         .form-group
-            label(for="rating") Product Rating
+            label(for="rating") Rating
             input#rating(type="number", min="0", max="5", class="form-control", name="rating")
         input(type="submit", class="btn btn-info")
              
