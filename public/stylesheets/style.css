@@ -1,7 +1,7 @@
 
 body {
   padding: 35px;
-  font: 16px "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+  font: 16px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
 .navbar {
